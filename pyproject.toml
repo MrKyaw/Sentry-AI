@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sentry-ai"
+version = "0.1.0"
+description = "SigSentinel signal-processing subset for cybersecurity demos."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+dashboard = [
+    "streamlit>=1.35",
+]
+
+[project.scripts]
+sentry-ai = "sentry_ai.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sentry_ai"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
