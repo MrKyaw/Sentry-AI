@@ -239,3 +239,9 @@ Module-level mapping to SigSentinel sources: [ATTRIBUTION.md](ATTRIBUTION.md).
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+⭐ Star this repo if you find it useful! ⭐
+
+[Report Bug](https://github.com/MrKyaw/Sentry-AI/issues/new?labels=bug) · [Request Feature](https://github.com/MrKyaw/Sentry-AI/issues/new?labels=enhancement) · [Ask Question](https://github.com/MrKyaw/Sentry-AI/issues/new?labels=question)
